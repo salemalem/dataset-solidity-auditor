@@ -4,7 +4,7 @@ def shorten_filename(filename, existing_names):
     # Define your logic to shorten the filename here
     # This is a simple example that trims the filename to the first 5 characters
     name, ext = os.path.splitext(filename)
-    short_name = name[:5]
+    short_name = name[:10]
 
     # Ensure the new name is unique
     counter = 1
